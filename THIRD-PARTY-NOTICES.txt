@@ -1,0 +1,22 @@
+Amber Writer includes work by others, under these licenses.
+
+Qt (macOS and Linux versions only)
+  The Mac and Linux versions of Amber Writer use the Qt toolkit, version 6, from The Qt
+  Company, under the GNU Lesser General Public License version 3 (LGPLv3):
+  https://www.gnu.org/licenses/lgpl-3.0.html
+  Qt is included as separate shared libraries, which you may replace with your own build.
+  Qt's complete source code is available at https://download.qt.io/archive/qt/ (choose
+  the version in the file names inside the app) and at https://code.qt.io/.
+  Qt includes other third-party code, listed at https://doc.qt.io/qt-6/licenses-used-in-qt.html
+
+English word list
+  The spelling dictionary is the English word list of pyspellchecker by Tyler Barrus,
+  under the MIT License: https://github.com/barrust/pyspellchecker
+
+Inflate
+  The code that reads compressed Word files follows puff.c by Mark Adler, from zlib,
+  under the zlib License: https://zlib.net/zlib_license.html
+
+Linux libraries
+  The Linux AppImage also carries a few common system libraries (such as libxcb and
+  libxkbcommon), each under its own free license as published with it.

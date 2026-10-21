@@ -1,0 +1,3 @@
+#define AMBER_VERSION "0.7.0"
+#define AMBER_VERSION_W L"0.7.0"
+#define AMBER_VERSION_RC 0, 7, 0, 0

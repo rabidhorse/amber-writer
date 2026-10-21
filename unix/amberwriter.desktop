@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Amber Writer
+GenericName=Word Processor
+Comment=A distraction-free word processor in the style of WordPerfect for DOS
+Exec=amberwriter %f
+Icon=amberwriter
+Terminal=false
+Categories=Office;WordProcessor;
+MimeType=application/rtf;text/rtf;application/vnd.openxmlformats-officedocument.wordprocessingml.document;text/plain;
+Keywords=WordPerfect;DOS;typewriter;writing;

@@ -1,0 +1,28 @@
+#include <windows.h>
+#include "../src/version.h"
+
+1 ICON "amber.ico"
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "amber.manifest"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION AMBER_VERSION_RC
+PRODUCTVERSION AMBER_VERSION_RC
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904b0"
+    BEGIN
+      VALUE "FileDescription", "Amber Writer"
+      VALUE "FileVersion", AMBER_VERSION
+      VALUE "ProductName", "Amber Writer"
+      VALUE "ProductVersion", AMBER_VERSION
+      VALUE "OriginalFilename", "AmberWriter.exe"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END

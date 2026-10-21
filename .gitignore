@@ -1,0 +1,13 @@
+/build/
+/build-*/
+/AppDir/
+/qt/
+/tools/*.AppImage
+/tools/runtime-*
+/dmg/
+*.AppImage
+*.dmg
+*.exe
+*.zip
+README.txt
+aqtinstall.log
