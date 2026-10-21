@@ -140,8 +140,9 @@ first two for the most authentic DOS look. On a small screen the text shrinks so
 
 ## Build it
 
-Every push to GitHub builds all three versions (`.github/workflows/build.yml`), and
-pushing a tag such as `v0.7.0` puts them on a new release page.
+Every push to GitHub builds all three versions (`.github/workflows/build.yml`). When
+the version in `src/version.h` has no release yet, they go on a new release page with
+`RELEASE-NOTES.md` as its text, so raising the version publishes the next release.
 
 **Windows**, on Linux (Ubuntu/Debian) with the 32-bit mingw-w64 cross compiler:
 
